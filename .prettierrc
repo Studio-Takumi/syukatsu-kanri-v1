@@ -5,6 +5,7 @@
     "jsxSingleQuote": true,
     "printWidth": 240,
     "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+    "tailwindAttributes": ["className"],
     "overrides": [
         {
             "files": ["*.css", "*.json"],
