@@ -1,12 +1,12 @@
 import './global.css';
-import { TodoListScreen } from './src/screens/TodoListScreen';
+import { CalendarScreen } from './src/screens/CalendarScreen';
 import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 
 export default function App() {
     return (
         <View className='w-full'>
-            <TodoListScreen />
+            <CalendarScreen />
             <StatusBar style='auto' />
         </View>
     );
