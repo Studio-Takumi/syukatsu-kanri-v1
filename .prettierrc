@@ -1,0 +1,16 @@
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 240,
+    "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+    "overrides": [
+        {
+            "files": ["*.css", "*.json"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
